@@ -46,7 +46,7 @@ public interface OwnerRepository extends Repository<Owner, Integer> {
 	List<PetType> findPetTypes();
 
 	/**
-	 * Retrieve {@link Owner}s from the data store by last name, returning all owners
+	 * Retrieve {@link Owner}s from the data store by last name, returning all  owners
 	 * whose last name <i>starts</i> with the given name.
 	 * @param lastName Value to search for
 	 * @return a Collection of matching {@link Owner}s (or an empty Collection if none
